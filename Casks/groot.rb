@@ -1,19 +1,13 @@
 cask "groot" do
-  version "0.1.0"
-  sha256 "76704285632a65fb3fa8dba0f0c6dcc2f8eafee18d46254a8afbaef096fc8d31"
+  version "0.1.1"
+  sha256 "688cb43c6c9a234ff4b6974382ba868272a0a81d48b52c21308ea36eea6e322e"
 
-  url "https://github.com/habib-sust/groot/releases/download/v#{version}/groot_#{version}_universal.dmg"
-  name "groot"
+  url "https://github.com/habib-sust/groot/releases/download/v#{version}/Groot_#{version}_universal.dmg"
+  name "Groot"
   desc "Lightweight Markdown WYSIWYG desktop editor"
   homepage "https://github.com/habib-sust/groot"
 
-  app "groot.app"
-
-  caveats <<~CAVEAT
-    groot is not yet notarized. On first launch macOS may block it.
-    Right-click the app in Finder and choose Open, or run:
-      xattr -dr com.apple.quarantine "/Applications/groot.app"
-  CAVEAT
+  app "Groot.app"
 
   zap trash: "~/Library/Application Support/com.groot.viewer"
 end
