@@ -1,6 +1,6 @@
 cask "groot" do
-  version "0.2.0"
-  sha256 "d6e5e26f54fd09305853a620f8e66e85054612d4b5ad24c46766b1425bbdf93c"
+  version "0.2.1"
+  sha256 "a4ed4ec9056a61cdd0fd97a9e59172c0b3795450aeac95d8c9c3818b0986aaa1"
 
   url "https://github.com/habib-sust/groot/releases/download/v#{version}/Groot_#{version}_universal.dmg"
   name "Groot"
